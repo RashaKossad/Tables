@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML Tables</title>
+    <link rel="stylesheet" href="./CSS/index.css"
+</head>
+<!--font-->
+<<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Nunito+Sans:wght@700&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+
+<!--Logo-->
+<header>
+<img id="logo" src="./css/images/logo.png" alt="logo">
+</header>
+
+
+<body>
+<div>
+    <!--Header-->
+    <h1 id="header" > Learn HTML Tables </h1>
+    <p id="paragraph"> HTML is the foundation of all web pages. 
+    It defines the structure of a page, while CSS defines its style. 
+    <br> HTML and CSS are the beginning of everything you need to know to make your first web page! 
+    Learn both and start creating amazing websites.
+</p>
+
+<!--Table 1-->
+<h2 id="tag">::(TABLE TAGS)::</h2>
+</div >
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Tag</th>
+            <th scope="'col">Name</th>
+            <th scope="col">Discription</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> tr </td>
+            <td>Table Row Element</td>
+            <td>is used to add rows to a table before adding table data and table headings.</td>
+        </tr>
+        <tr>
+            <td> td </td>
+            <td>Table Data Element</td>
+            <td>The table data element, td , can be nested inside a table row element, tr , to add a cell of data to a table.</td>
+        </tr>
+        <tr>
+            <td> thead  </td>
+            <td>Table Head Element</td>
+            <td>The table head element, thead , defines the headings of table columns encapsulated in table rows.</td>
+            </tr>
+            <tr>
+                <td> tbody </td>
+                <td>Table Body Element</td>
+                <td>is a semantic element that will contain all table data other than table heading and table footer content. If used, tbody,  will contain all table row tr  elements, and indicates that ,tr , elements make up the body of the table. Table, cannot have both tbody and tr as direct children.</td>
+        </tr>
+        <tr>
+            <td> th </td>
+            <td>Table Heading Element</td>
+            <td>The table heading element, th , is used to add titles to rows and columns of a table and must be enclosed in a table row element, tr .</td>
+        </tr>
+        <tr>
+            <td>tfoot</td>
+            <td>Table Footer Element</td>
+            <td>The table footer element, tfoot, uses table rows to give footer content or to summarize content at the end of a table.</td>
+        </tr>
+        <tr>
+            <td> table </td>
+            <td>Table Element</td>
+            <td>In HTML, the ,table, element has content that is used to represent a two-dimensional table made of rows and columns.</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<!--Table 2-->
+<h2 id="tag"> ::(TABLE ATTRIBUTES):: </h2>
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>colspan</td>
+                <td>Column Span	</td>
+                <td>The colspan attribute on a table header ,th, or table data ,td, element indicates how many columns that particular cell should span within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000.</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>Row Span</td>
+                <td>Similar to colspan, the rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The rowspan value is set to 1 by default and will take any positive integer up to 65534.</td>
+            </tr>
+        </tbody>
+    </thead>
+</table>
+</body>
+<!--Footer-->
+<footer>
+    <p>To learn more visit Codecademy website: <a href="https://www.codecademy.com/learn/premium-html-tables-and-forms/modules/premium-learn-html-tables/cheatsheet" target="_blank">CODECADEMY</a></p>
+<p id="Copyright">Copyright © 2023 Rasha Kossad. All Rights Reserved </p>
+</footer>
